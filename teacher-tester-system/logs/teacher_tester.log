@@ -1,0 +1,22 @@
+2025-02-28 01:24:08,701 - teacher_tester.agents.teacher - INFO - Initialized teacher agent for subject: Python Programming
+2025-02-28 01:24:08,701 - teacher_tester.agents.teacher - INFO - Initialized teacher agent for subject: Python Programming
+2025-02-28 01:24:08,702 - teacher_tester.agents.tester - INFO - Initialized tester agent with rating: 7.5
+2025-02-28 01:24:08,702 - teacher_tester.agents.tester - INFO - Initialized tester agent with rating: 7.5
+2025-02-28 01:24:08,703 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.20
+2025-02-28 01:24:08,703 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.20
+2025-02-28 01:24:08,703 - teacher_tester.run_conversation - INFO - Started conversation d660d05a-de8f-4600-b759-cd6d336d4031 on Python Programming with tester rating 7.5
+2025-02-28 01:24:08,703 - teacher_tester.run_conversation - INFO - Started conversation d660d05a-de8f-4600-b759-cd6d336d4031 on Python Programming with tester rating 7.5
+2025-02-28 01:24:08,704 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 01:24:08,704 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 01:24:08,704 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.50
+2025-02-28 01:24:08,704 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.50
+2025-02-28 01:24:08,705 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 01:24:08,705 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 01:24:08,705 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.80
+2025-02-28 01:24:08,705 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.80
+2025-02-28 01:24:08,705 - teacher_tester.agents.teacher - INFO - Estimated tester rating: 4.51 with confidence: 0.95
+2025-02-28 01:24:08,705 - teacher_tester.agents.teacher - INFO - Estimated tester rating: 4.51 with confidence: 0.95
+2025-02-28 01:24:08,707 - teacher_tester.data.storage - INFO - Saved conversation d660d05a-de8f-4600-b759-cd6d336d4031 to data/conversations\d660d05a-de8f-4600-b759-cd6d336d4031.json
+2025-02-28 01:24:08,707 - teacher_tester.data.storage - INFO - Saved conversation d660d05a-de8f-4600-b759-cd6d336d4031 to data/conversations\d660d05a-de8f-4600-b759-cd6d336d4031.json
+2025-02-28 01:24:08,707 - teacher_tester.run_conversation - INFO - Completed conversation d660d05a-de8f-4600-b759-cd6d336d4031. True rating: 7.50, Predicted: 4.51, Confidence: 0.95
+2025-02-28 01:24:08,707 - teacher_tester.run_conversation - INFO - Completed conversation d660d05a-de8f-4600-b759-cd6d336d4031. True rating: 7.50, Predicted: 4.51, Confidence: 0.95

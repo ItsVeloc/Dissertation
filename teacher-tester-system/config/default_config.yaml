@@ -1,0 +1,39 @@
+# Teacher-Tester System Configuration
+
+# Model settings
+models:
+  teacher:
+    base_model: "gpt-3.5-turbo"
+    temperature: 0.7
+    max_tokens: 1024
+  tester:
+    base_model: "gpt-3.5-turbo"
+    temperature: 0.7
+    max_tokens: 1024
+
+# Conversation settings
+conversation:
+  confidence_threshold: 0.8
+  max_exchanges: 5
+  rating_range:
+    min: 0.0
+    max: 10.0
+
+# Data storage
+storage:
+  conversations_dir: "data/conversations"
+  training_examples_dir: "data/training"
+  file_format: "json"
+  
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/teacher_tester.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# Evaluation
+evaluation:
+  metrics:
+    - "mean_absolute_error"
+    - "confidence_calibration"
+    - "conversation_length"
