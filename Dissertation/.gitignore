@@ -1,0 +1,30 @@
+# Ignore model folder (large files)
+DeepSeek-R1-Distill-Qwen-1.5B/
+
+# Ignore conversation history
+chat_history.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
