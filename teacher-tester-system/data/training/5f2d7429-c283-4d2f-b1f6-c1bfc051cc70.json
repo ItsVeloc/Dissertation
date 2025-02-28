@@ -1,0 +1,22 @@
+{
+  "id": "5f2d7429-c283-4d2f-b1f6-c1bfc051cc70",
+  "conversation_id": "c317a9dd-2900-454d-a73f-adda33648573",
+  "subject": "python_programming",
+  "true_rating": 1.9309505695710927,
+  "predicted_rating": 5.0,
+  "prediction_error": 3.0690494304289073,
+  "confidence": 0.5,
+  "calibration_error": 0.19309505695710927,
+  "conversation_length": 5,
+  "features": {
+    "confidence_trajectory": [
+      0.2,
+      0.74,
+      0.7,
+      0.38,
+      0.51
+    ],
+    "terminated_reason": "max_exchanges",
+    "duration_seconds": 0.024558
+  }
+}

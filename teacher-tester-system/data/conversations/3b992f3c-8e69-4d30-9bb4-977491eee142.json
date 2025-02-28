@@ -1,0 +1,66 @@
+{
+  "id": "3b992f3c-8e69-4d30-9bb4-977491eee142",
+  "subject": "data_science",
+  "true_rating": 6.431127700800055,
+  "predicted_rating": 5.0,
+  "messages": [
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.20\n\nI've heard of that but don't remember the details. Could you explain more?",
+      "timestamp": "2025-02-28T02:25:07.354147",
+      "confidence": 0.2
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.52\n\nBased on our conversation so far, I'd like to assess your understanding further. Can you write a function to calculate the Fibonacci sequence?",
+      "timestamp": "2025-02-28T02:25:07.357155",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.42\n\nBased on our conversation so far, I'd like to assess your understanding further. What's the difference between a list and a dictionary in Python?",
+      "timestamp": "2025-02-28T02:25:07.359161",
+      "confidence": 0.42
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.47\n\nBased on our conversation so far, I'd like to assess your understanding further. Can you write a function to calculate the Fibonacci sequence?",
+      "timestamp": "2025-02-28T02:25:07.361998",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.49\n\nBased on our conversation so far, I'd like to assess your understanding further. What's the difference between a list and a dictionary in Python?",
+      "timestamp": "2025-02-28T02:25:07.363509",
+      "confidence": 0.49
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.46\n\nBased on our conversation so far, I'd like to assess your understanding further. Can you write a function to calculate the Fibonacci sequence?",
+      "timestamp": "2025-02-28T02:25:07.365511",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.43\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.368672",
+      "confidence": 0.43
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.55\n\nBased on our conversation so far, I'd like to assess your understanding further. Can you write a function to calculate the Fibonacci sequence?",
+      "timestamp": "2025-02-28T02:25:07.371164",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.62\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you handle exceptions in Python?",
+      "timestamp": "2025-02-28T02:25:07.372675",
+      "confidence": 0.62
+    }
+  ],
+  "final_confidence": 0.5,
+  "start_time": "2025-02-28T02:25:07.352360",
+  "end_time": "2025-02-28T02:25:07.377423",
+  "terminated_reason": "max_exchanges"
+}

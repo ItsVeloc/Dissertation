@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-02-28T02:31:43.285034",
+  "total_conversations": 38,
+  "basic_metrics": {
+    "mae": 2.8159679144630343,
+    "rmse": 3.234946864169313,
+    "r2": -0.28258920930177056,
+    "mean_confidence": 0.5118421052631579,
+    "count": 38
+  },
+  "calibration_metrics": {
+    "mean_calibration_error": 0.21968008602778843,
+    "expected_calibration_error": 0.2196800860277884,
+    "max_calibration_error": 0.24926067200774482,
+    "overconfidence_rate": 0.02631578947368421,
+    "underconfidence_rate": 0.9210526315789473
+  },
+  "subject_analysis": [
+    {
+      "subject": "web_development",
+      "count": 2,
+      "mae": 0.6966526281325414,
+      "rmse": 0.9300579148298795,
+      "mean_confidence": 0.5,
+      "mean_conversation_length": 5.0,
+      "median_error": 0.6966526281325414
+    },
+    {
+      "subject": "python_programming",
+      "count": 28,
+      "mae": 3.005561038577166,
+      "rmse": 3.4012394193261577,
+      "mean_confidence": 0.5,
+      "mean_conversation_length": 4.821428571428571,
+      "median_error": 3.056079080313574
+    },
+    {
+      "subject": "machine_learning",
+      "count": 4,
+      "mae": 3.481082130466584,
+      "rmse": 3.6876104197364272,
+      "mean_confidence": 0.5,
+      "mean_conversation_length": 5.0,
+      "median_error": 3.951371500876112
+    },
+    {
+      "subject": "data_science",
+      "count": 2,
+      "mae": 1.020415585612899,
+      "rmse": 1.0999692763542186,
+      "mean_confidence": 0.5,
+      "mean_conversation_length": 5.0,
+      "median_error": 1.020415585612899
+    },
+    {
+      "subject": "Python Programming",
+      "count": 2,
+      "mae": 2.7463033600387243,
+      "rmse": 2.7573261487401797,
+      "mean_confidence": 0.725,
+      "mean_conversation_length": 4.0,
+      "median_error": 2.7463033600387243
+    }
+  ],
+  "rating_analysis": [
+    {
+      "rating_bin": "0.0-1.0",
+      "min_rating": 0.0,
+      "max_rating": 0.8723301067910817,
+      "count": 12,
+      "mae": 4.59966671532774,
+      "bias": 4.59966671532774,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "1.0-2.0",
+      "min_rating": 1.9224479176647373,
+      "max_rating": 1.9568912698017589,
+      "count": 3,
+      "mae": 3.063236747654137,
+      "bias": 3.0632367476541367,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "2.0-3.0",
+      "min_rating": 2.068174605033958,
+      "max_rating": 2.874147642383812,
+      "count": 4,
+      "mae": 2.3894194381455574,
+      "bias": 2.3894194381455574,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "3.0-4.0",
+      "min_rating": 3.010057429308939,
+      "max_rating": 3.6871632754695343,
+      "count": 2,
+      "mae": 1.6513896476107635,
+      "bias": 1.6513896476107632,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "4.0-5.0",
+      "min_rating": 4.010380462365289,
+      "max_rating": 4.919531468265383,
+      "count": 6,
+      "mae": 0.735424988692071,
+      "bias": 0.7354249886920705,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "5.0-6.0",
+      "min_rating": 5.0,
+      "max_rating": 5.0,
+      "count": 2,
+      "mae": 0.0,
+      "bias": 0.0,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "6.0-7.0",
+      "min_rating": 6.431127700800055,
+      "max_rating": 6.521585520114112,
+      "count": 2,
+      "mae": 1.4763566104570836,
+      "bias": -1.476356610457083,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "7.0-8.0",
+      "min_rating": 7.25,
+      "max_rating": 7.5,
+      "count": 4,
+      "mae": 2.498151680019362,
+      "bias": -2.4981516800193617,
+      "mean_confidence": 0.6125
+    },
+    {
+      "rating_bin": "8.0-9.0",
+      "min_rating": 8.402743001752224,
+      "max_rating": 8.402743001752224,
+      "count": 1,
+      "mae": 3.402743001752224,
+      "bias": -3.402743001752224,
+      "mean_confidence": 0.5
+    },
+    {
+      "rating_bin": "9.0-10.0",
+      "min_rating": 9.5,
+      "max_rating": 9.5,
+      "count": 2,
+      "mae": 4.5,
+      "bias": -4.5,
+      "mean_confidence": 0.5
+    }
+  ],
+  "confidence_progression": {
+    "avg_confidence_by_step": [
+      0.20000000000000004,
+      0.5518421052631579,
+      0.5510526315789473,
+      0.5481578947368421,
+      0.5739473684210527
+    ],
+    "mean_confidence_change_rate": 0.10664473684210526,
+    "confidence_accuracy_correlation": 0.26321853753330765,
+    "avg_trajectory_length": 4.815789473684211
+  },
+  "assessment": {
+    "strengths": [],
+    "weaknesses": [
+      "Poor rating prediction accuracy",
+      "Systematic bias in rating ranges: 0.0-1.0",
+      "Inconsistent performance across subjects (worst: machine_learning)"
+    ],
+    "recommendations": [
+      "Improve the teacher's ability to ask more discriminative questions",
+      "Improve accuracy for specific rating ranges with targeted training",
+      "Improve assessment ability for machine_learning"
+    ]
+  }
+}

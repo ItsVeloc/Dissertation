@@ -1,0 +1,22 @@
+{
+  "id": "ad292349-fd7b-436b-b17e-a4f89ffab746",
+  "conversation_id": "2d2eb816-a73c-48f6-80ad-d0175ec8b2bc",
+  "subject": "data_science",
+  "true_rating": 4.3902965295742575,
+  "predicted_rating": 5.0,
+  "prediction_error": 0.6097034704257425,
+  "confidence": 0.5,
+  "calibration_error": 0.4390296529574258,
+  "conversation_length": 5,
+  "features": {
+    "confidence_trajectory": [
+      0.2,
+      0.33,
+      0.74,
+      0.69,
+      0.61
+    ],
+    "terminated_reason": "max_exchanges",
+    "duration_seconds": 0.027
+  }
+}

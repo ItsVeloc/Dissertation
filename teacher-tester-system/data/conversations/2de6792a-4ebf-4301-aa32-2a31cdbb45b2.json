@@ -1,0 +1,66 @@
+{
+  "id": "2de6792a-4ebf-4301-aa32-2a31cdbb45b2",
+  "subject": "python_programming",
+  "true_rating": 0.8160350119764254,
+  "predicted_rating": 5.0,
+  "messages": [
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.20\n\nLists are ordered collections while dictionaries store key-value pairs for efficient lookups.",
+      "timestamp": "2025-02-28T02:25:07.287760",
+      "confidence": 0.2
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.33\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you handle exceptions in Python?",
+      "timestamp": "2025-02-28T02:25:07.290759",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.65\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.292762",
+      "confidence": 0.65
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.43\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you handle exceptions in Python?",
+      "timestamp": "2025-02-28T02:25:07.294764",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.32\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.296764",
+      "confidence": 0.32
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.71\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.299763",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.67\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.300764",
+      "confidence": 0.67
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.71\n\nBased on our conversation so far, I'd like to assess your understanding further. Can you explain the main concepts of object-oriented programming?",
+      "timestamp": "2025-02-28T02:25:07.303555",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.36\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you handle exceptions in Python?",
+      "timestamp": "2025-02-28T02:25:07.306704",
+      "confidence": 0.36
+    }
+  ],
+  "final_confidence": 0.5,
+  "start_time": "2025-02-28T02:25:07.284764",
+  "end_time": "2025-02-28T02:25:07.310850",
+  "terminated_reason": "max_exchanges"
+}

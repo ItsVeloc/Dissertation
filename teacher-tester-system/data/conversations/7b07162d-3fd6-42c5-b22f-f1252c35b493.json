@@ -1,0 +1,66 @@
+{
+  "id": "7b07162d-3fd6-42c5-b22f-f1252c35b493",
+  "subject": "python_programming",
+  "true_rating": 0.5,
+  "predicted_rating": 5.0,
+  "messages": [
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.20\n\nLists maintain order and allow duplicates with O(n) lookup time, while dictionaries use hash tables for O(1) average case lookups with unique keys.",
+      "timestamp": "2025-02-28T02:25:07.321851",
+      "confidence": 0.2
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.42\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you handle exceptions in Python?",
+      "timestamp": "2025-02-28T02:25:07.324849",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.44\n\nBased on our conversation so far, I'd like to assess your understanding further. What's the difference between a list and a dictionary in Python?",
+      "timestamp": "2025-02-28T02:25:07.327849",
+      "confidence": 0.44
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.35\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.328849",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.32\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you handle exceptions in Python?",
+      "timestamp": "2025-02-28T02:25:07.331850",
+      "confidence": 0.32
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.62\n\nBased on our conversation so far, I'd like to assess your understanding further. What's the difference between a list and a dictionary in Python?",
+      "timestamp": "2025-02-28T02:25:07.333850",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.35\n\nBased on our conversation so far, I'd like to assess your understanding further. Can you explain the main concepts of object-oriented programming?",
+      "timestamp": "2025-02-28T02:25:07.335853",
+      "confidence": 0.35
+    },
+    {
+      "role": "tester",
+      "content": "Confidence: 0.71\n\nBased on our conversation so far, I'd like to assess your understanding further. How would you implement a linked list in Python?",
+      "timestamp": "2025-02-28T02:25:07.338846",
+      "confidence": null
+    },
+    {
+      "role": "teacher",
+      "content": "Confidence: 0.45\n\nBased on our conversation so far, I'd like to assess your understanding further. What's the difference between a list and a dictionary in Python?",
+      "timestamp": "2025-02-28T02:25:07.340851",
+      "confidence": 0.45
+    }
+  ],
+  "final_confidence": 0.5,
+  "start_time": "2025-02-28T02:25:07.319846",
+  "end_time": "2025-02-28T02:25:07.344854",
+  "terminated_reason": "max_exchanges"
+}

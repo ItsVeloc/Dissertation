@@ -1,0 +1,22 @@
+{
+  "id": "c42e317f-df17-4213-83ad-e16bfd41efb2",
+  "conversation_id": "a6d11dcb-eaf7-49eb-a10e-fd94e932eaed",
+  "subject": "python_programming",
+  "true_rating": 5.0,
+  "predicted_rating": 5.0,
+  "prediction_error": 0.0,
+  "confidence": 0.5,
+  "calibration_error": 0.5,
+  "conversation_length": 5,
+  "features": {
+    "confidence_trajectory": [
+      0.2,
+      0.7,
+      0.63,
+      0.34,
+      0.8
+    ],
+    "terminated_reason": "confidence_threshold",
+    "duration_seconds": 0.025995
+  }
+}

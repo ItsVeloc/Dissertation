@@ -1,0 +1,22 @@
+{
+  "id": "2998191f-2535-4a93-a9de-f60c55fe0e57",
+  "conversation_id": "de98531d-5308-457f-8c12-27d6b4971765",
+  "subject": "web_development",
+  "true_rating": 4.919531468265383,
+  "predicted_rating": 5.0,
+  "prediction_error": 0.08046853173461699,
+  "confidence": 0.5,
+  "calibration_error": 0.49195314682653835,
+  "conversation_length": 5,
+  "features": {
+    "confidence_trajectory": [
+      0.2,
+      0.42,
+      0.35,
+      0.68,
+      0.59
+    ],
+    "terminated_reason": "max_exchanges",
+    "duration_seconds": 0.029002
+  }
+}

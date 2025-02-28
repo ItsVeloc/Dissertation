@@ -1,0 +1,22 @@
+{
+  "id": "62c300f9-8f63-430c-8c55-6d9ea1898249",
+  "conversation_id": "72cb86d5-cbf9-4a35-ac58-81911bee75b5",
+  "subject": "machine_learning",
+  "true_rating": 0.5,
+  "predicted_rating": 5.0,
+  "prediction_error": 4.5,
+  "confidence": 0.5,
+  "calibration_error": 0.050000000000000044,
+  "conversation_length": 5,
+  "features": {
+    "confidence_trajectory": [
+      0.2,
+      0.36,
+      0.59,
+      0.5,
+      0.55
+    ],
+    "terminated_reason": "max_exchanges",
+    "duration_seconds": 0.03
+  }
+}
