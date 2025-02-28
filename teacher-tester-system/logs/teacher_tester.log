@@ -20,3 +20,59 @@
 2025-02-28 01:24:08,707 - teacher_tester.data.storage - INFO - Saved conversation d660d05a-de8f-4600-b759-cd6d336d4031 to data/conversations\d660d05a-de8f-4600-b759-cd6d336d4031.json
 2025-02-28 01:24:08,707 - teacher_tester.run_conversation - INFO - Completed conversation d660d05a-de8f-4600-b759-cd6d336d4031. True rating: 7.50, Predicted: 4.51, Confidence: 0.95
 2025-02-28 01:24:08,707 - teacher_tester.run_conversation - INFO - Completed conversation d660d05a-de8f-4600-b759-cd6d336d4031. True rating: 7.50, Predicted: 4.51, Confidence: 0.95
+2025-02-28 02:06:35,596 - teacher_tester.agents.teacher - INFO - Initialized teacher agent for subject: Python Programming
+2025-02-28 02:06:35,596 - teacher_tester.agents.teacher - INFO - Initialized teacher agent for subject: Python Programming
+2025-02-28 02:06:35,596 - teacher_tester.agents.tester - INFO - Initialized tester agent with rating: 7.5
+2025-02-28 02:06:35,596 - teacher_tester.agents.tester - INFO - Initialized tester agent with rating: 7.5
+2025-02-28 02:06:35,597 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,597 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,598 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.20
+2025-02-28 02:06:35,598 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.20
+2025-02-28 02:06:35,598 - teacher_tester.run_conversation - INFO - Started conversation ee80998a-cddd-4103-b2dc-3916010bd56f on Python Programming with tester rating 7.5
+2025-02-28 02:06:35,598 - teacher_tester.run_conversation - INFO - Started conversation ee80998a-cddd-4103-b2dc-3916010bd56f on Python Programming with tester rating 7.5
+2025-02-28 02:06:35,599 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,599 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,599 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,599 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,599 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,599 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,599 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.63
+2025-02-28 02:06:35,599 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.63
+2025-02-28 02:06:35,600 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,600 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,600 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,600 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,600 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,600 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,601 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.40
+2025-02-28 02:06:35,601 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.40
+2025-02-28 02:06:35,601 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,601 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,601 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,601 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,601 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,601 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,601 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.50
+2025-02-28 02:06:35,601 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.50
+2025-02-28 02:06:35,601 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,601 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,602 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,602 - teacher_tester.agents.tester - INFO - Generated tester response (rating: 7.5)
+2025-02-28 02:06:35,602 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,602 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,602 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.65
+2025-02-28 02:06:35,602 - teacher_tester.agents.teacher - INFO - Generated teacher response with confidence: 0.65
+2025-02-28 02:06:35,602 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,602 - teacher_tester.utils.model_interface - INFO - Simulating response for model: gpt-3.5-turbo
+2025-02-28 02:06:35,603 - teacher_tester.agents.teacher - WARNING - Failed to extract rating or confidence from: Confidence: 0.70
+
+Based on our conversation so far, I'd like to assess your understanding further. Can you explain the main concepts of object-oriented programming?
+2025-02-28 02:06:35,603 - teacher_tester.agents.teacher - WARNING - Failed to extract rating or confidence from: Confidence: 0.70
+
+Based on our conversation so far, I'd like to assess your understanding further. Can you explain the main concepts of object-oriented programming?
+2025-02-28 02:06:35,603 - teacher_tester.agents.teacher - INFO - Estimated tester rating: 5.00 with confidence: 0.50
+2025-02-28 02:06:35,603 - teacher_tester.agents.teacher - INFO - Estimated tester rating: 5.00 with confidence: 0.50
+2025-02-28 02:06:35,604 - teacher_tester.data.storage - INFO - Saved conversation ee80998a-cddd-4103-b2dc-3916010bd56f to data/conversations\ee80998a-cddd-4103-b2dc-3916010bd56f.json
+2025-02-28 02:06:35,604 - teacher_tester.data.storage - INFO - Saved conversation ee80998a-cddd-4103-b2dc-3916010bd56f to data/conversations\ee80998a-cddd-4103-b2dc-3916010bd56f.json
+2025-02-28 02:06:35,605 - teacher_tester.run_conversation - INFO - Completed conversation ee80998a-cddd-4103-b2dc-3916010bd56f. True rating: 7.50, Predicted: 5.00, Confidence: 0.50
+2025-02-28 02:06:35,605 - teacher_tester.run_conversation - INFO - Completed conversation ee80998a-cddd-4103-b2dc-3916010bd56f. True rating: 7.50, Predicted: 5.00, Confidence: 0.50

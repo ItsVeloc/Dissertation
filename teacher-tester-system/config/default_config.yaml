@@ -6,10 +6,12 @@ models:
     base_model: "gpt-3.5-turbo"
     temperature: 0.7
     max_tokens: 1024
+    top_p: 0.95
   tester:
     base_model: "gpt-3.5-turbo"
-    temperature: 0.7
+    temperature: 0.8  # Slightly higher for more natural responses
     max_tokens: 1024
+    top_p: 0.95
 
 # Conversation settings
 conversation:
@@ -18,6 +20,11 @@ conversation:
   rating_range:
     min: 0.0
     max: 10.0
+  initial_prompts:
+    python_programming: "Let's discuss Python programming concepts. I'd like to understand your knowledge level in this area."
+    machine_learning: "I'd like to explore your understanding of machine learning concepts and techniques."
+    data_science: "Let's talk about data science. I'm interested in understanding your knowledge in this field."
+    web_development: "I'd like to discuss web development technologies and practices with you."
 
 # Data storage
 storage:
@@ -37,3 +44,8 @@ evaluation:
     - "mean_absolute_error"
     - "confidence_calibration"
     - "conversation_length"
+  
+# Development settings
+development:
+  simulate_api: true
+  verbose_logging: true
