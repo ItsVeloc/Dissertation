@@ -1,0 +1,49 @@
+{
+  "num_segments": 3,
+  "bits": 8,
+  "segments": [
+    {
+      "id": "segment_0.0_3.3_lora",
+      "min_rating": 0.0,
+      "max_rating": 3.3333333333333335,
+      "rank": 8
+    },
+    {
+      "id": "segment_3.3_6.7_lora",
+      "min_rating": 3.3333333333333335,
+      "max_rating": 6.666666666666667,
+      "rank": 16
+    },
+    {
+      "id": "segment_6.7_10.0_lora",
+      "min_rating": 6.666666666666667,
+      "max_rating": 10.0,
+      "rank": 8
+    }
+  ],
+  "savings": {
+    "original_size_mb": 8.0390625,
+    "optimized_size_mb": 0.0418701171875,
+    "compression_ratio": 192.0,
+    "segments": [
+      {
+        "id": "segment_0.0_3.3_lora",
+        "min_rating": 0.0,
+        "max_rating": 3.3333333333333335,
+        "rank": 8
+      },
+      {
+        "id": "segment_3.3_6.7_lora",
+        "min_rating": 3.3333333333333335,
+        "max_rating": 6.666666666666667,
+        "rank": 16
+      },
+      {
+        "id": "segment_6.7_10.0_lora",
+        "min_rating": 6.666666666666667,
+        "max_rating": 10.0,
+        "rank": 8
+      }
+    ]
+  }
+}

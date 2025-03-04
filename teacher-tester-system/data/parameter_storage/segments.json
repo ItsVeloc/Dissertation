@@ -1,0 +1,32 @@
+{
+  "segment_0.0_3.3_lora": {
+    "min_rating": 0.0,
+    "max_rating": 3.3333333333333335,
+    "model_type": "lora",
+    "file_path": "data/parameter_storage\\segment_0.0_3.3_lora.pt",
+    "metadata": {
+      "lora_rank": 8,
+      "quantization_bits": 8
+    }
+  },
+  "segment_3.3_6.7_lora": {
+    "min_rating": 3.3333333333333335,
+    "max_rating": 6.666666666666667,
+    "model_type": "lora",
+    "file_path": "data/parameter_storage\\segment_3.3_6.7_lora.pt",
+    "metadata": {
+      "lora_rank": 16,
+      "quantization_bits": 8
+    }
+  },
+  "segment_6.7_10.0_lora": {
+    "min_rating": 6.666666666666667,
+    "max_rating": 10.0,
+    "model_type": "lora",
+    "file_path": "data/parameter_storage\\segment_6.7_10.0_lora.pt",
+    "metadata": {
+      "lora_rank": 8,
+      "quantization_bits": 8
+    }
+  }
+}
