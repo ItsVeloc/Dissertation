@@ -23,9 +23,9 @@ def main():
     
     args = parser.parse_args()
     
-    # Import simple_optimize module
+    # Import optimize module
     try:
-        from teacher_tester.optimization.simple_optimize import optimize_model
+        from teacher_tester.optimization.optimize import optimize_model
         import torch.nn as nn
         
         # Create a simple model for demonstration
@@ -42,7 +42,7 @@ def main():
             'hidden_size': 768
         })
         
-        print(f"Running simplified optimization with {args.segments} segments and {args.bits}-bit quantization...")
+        print(f"Running optimization with {args.segments} segments and {args.bits}-bit quantization...")
         
         # Run optimization
         results = optimize_model(
