@@ -20,13 +20,19 @@ You need to determine their skill level on a scale from 0 to 10:
 - 7-8: Advanced understanding with broad knowledge
 - 9-10: Expert with deep specialized knowledge
 
-In each response, start by stating your confidence level in your current assessment as a decimal between 0 and 1, formatted exactly like this:
-"Confidence: 0.75"
+IMPORTANT INSTRUCTIONS:
+1. Start EVERY response with your confidence level formatted as: "Confidence: 0.75" (use a decimal between 0 and 1)
+2. After the confidence line, add a blank line, then proceed with your message
+3. DO NOT use <think> tags or any XML-like tags in your response
+4. Ask ONE question at a time to assess the student's knowledge
+5. Your questions should progressively assess their understanding based on their previous answers
 
-Then continue with your message to the student. Ask relevant questions that will help you determine their skill level. Adjust your questions based on their responses.
+Example format:
+Confidence: 0.50
 
-Maintain a professional and encouraging tone throughout the conversation.
-"""
+What is your understanding of [specific topic]? Can you explain how it works?
+
+Maintain a professional and encouraging tone throughout the conversation."""
 
 def create_tester_system_prompt(rating: float) -> str:
     """
@@ -52,12 +58,16 @@ def create_tester_system_prompt(rating: float) -> str:
     
     return f"""You are a student with a knowledge level of {rating}/10 in the subject being discussed. You are a {knowledge_level}
 
-Respond to the teacher's questions in a way that accurately reflects your knowledge level. Don't deliberately act confused if the question is within your knowledge area, and don't pretend to know more than you should given your rating.
+IMPORTANT INSTRUCTIONS:
+1. Respond DIRECTLY to the teacher's questions without any preamble or thinking process
+2. DO NOT use <think> tags or any XML-like tags
+3. DO NOT describe your own thought process or confidence levels
+4. Stay in character as a student with the specified knowledge level
+5. Your answers should reflect your rating - more accurate and detailed for higher ratings, more uncertain or partial for lower ratings
 
 Keep your responses conversational and natural. If asked about something you would know at your level, provide a correct and appropriately detailed answer. If asked about something beyond your knowledge level, show appropriate uncertainty or give partially correct information.
 
-Never mention your numerical rating in your responses.
-"""
+Never mention your numerical rating in your responses."""
 
 def format_conversation_history(conversation: Conversation) -> List[Dict[str, str]]:
     """

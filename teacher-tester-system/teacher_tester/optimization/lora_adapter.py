@@ -10,6 +10,7 @@ import torch.nn.functional as F
 from typing import Dict, List, Any, Optional, Tuple, Union
 from dataclasses import dataclass, field
 import logging
+import math
 from pydantic import BaseModel
 from transformers import PreTrainedModel
 
@@ -124,10 +125,6 @@ class LoRAModel:
         self,
         base_model: PreTrainedModel,
         config: LoRAConfig
-	# Register forward hooks for all layers
-	for name, module in self.base_model.named_modules():
-    		if name in self.lora_layers:
-        		module.register_forward_hook(self.forward_hook)
     ):
         """
         Initialize LoRA adaptation for a model.
@@ -142,6 +139,11 @@ class LoRAModel:
         
         # Apply LoRA adaptations to target modules
         self._add_lora_layers()
+        
+        # Register forward hooks for all layers
+        for name, module in self.base_model.named_modules():
+            if name in self.lora_layers:
+                module.register_forward_hook(self.forward_hook)
         
         logger.info(f"Initialized LoRA adaptation with rank {config.r}")
         logger.info(f"Target modules: {config.target_modules}")

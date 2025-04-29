@@ -2,16 +2,17 @@
 
 # Model settings
 models:
+  path: "C:/Users/charl/Documents/AI/Diss/Quinn 1.5B attempt/DeepSeek-R1-Distill-Qwen-1.5B"  # Absolute path with forward slashes
   teacher:
-    base_model: "gpt-3.5-turbo"
+    base_model: "local-deepseek"  # Identifier for the model used by the teacher
     temperature: 0.7
-    max_tokens: 1024
-    top_p: 0.95
+    max_tokens: 512  # Match BasicChatbot.py
+    top_p: 0.9  # Match BasicChatbot.py
   tester:
-    base_model: "gpt-3.5-turbo"
+    base_model: "local-deepseek"  # Identifier for the model used by the tester
     temperature: 0.8  # Slightly higher for more natural responses
-    max_tokens: 1024
-    top_p: 0.95
+    max_tokens: 512  # Match BasicChatbot.py
+    top_p: 0.9  # Match BasicChatbot.py
 
 # Conversation settings
 conversation:
@@ -21,21 +22,21 @@ conversation:
     min: 0.0
     max: 10.0
   initial_prompts:
-    python_programming: "Let's discuss Python programming concepts. I'd like to understand your knowledge level in this area."
-    machine_learning: "I'd like to explore your understanding of machine learning concepts and techniques."
-    data_science: "Let's talk about data science. I'm interested in understanding your knowledge in this field."
-    web_development: "I'd like to discuss web development technologies and practices with you."
+    "Python Programming": "Let's discuss Python programming concepts. I'd like to understand your knowledge level in this area."
+    "Machine Learning": "I'd like to explore your understanding of machine learning concepts and techniques."
+    "Data Science": "Let's talk about data science. I'm interested in understanding your knowledge in this field."
+    "Web Development": "I'd like to discuss web development technologies and practices with you."
 
 # Data storage
 storage:
-  conversations_dir: "data/conversations"
-  training_examples_dir: "data/training"
+  conversations_dir: "./data/conversations"  # Relative to the project directory
+  training_examples_dir: "./data/training"  # Relative to the project directory
   file_format: "json"
   
 # Logging
 logging:
   level: "INFO"
-  file: "logs/teacher_tester.log"
+  file: "./logs/teacher_tester.log"  # Relative to the project directory
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
   
 # Evaluation
@@ -47,5 +48,5 @@ evaluation:
   
 # Development settings
 development:
-  simulate_api: true
+  simulate_api: false  # Set to false to use the local model
   verbose_logging: true

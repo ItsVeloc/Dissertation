@@ -28,12 +28,29 @@ def display_conversation(conversation: Conversation) -> None:
     print("="*80)
     
     for i, msg in enumerate(conversation.messages):
-        if msg.role == "teacher":
-            print(f"\nTEACHER {i+1}:")
-            print(msg.content)
+        # Clean up confidence lines before display
+        content = msg.content
+        if msg.role == "teacher" and "Confidence:" in content:
+            # Extract confidence line separately
+            lines = content.split('\n')
+            confidence_line = None
+            other_lines = []
+            
+            for line in lines:
+                if line.startswith("Confidence:"):
+                    confidence_line = line
+                else:
+                    other_lines.append(line)
+            
+            # Show confidence separately, then the actual message
+            if confidence_line:
+                print(f"\n[{msg.role.upper()} - {confidence_line}]")
+            else:
+                print(f"\n[{msg.role.upper()} {i+1}]")
+            print("\n".join(other_lines).strip())
         else:
-            print(f"\nTESTER {i+1}:")
-            print(msg.content)
+            print(f"\n[{msg.role.upper()} {i+1}]")
+            print(content)
     
     print("\n" + "="*80)
     print(f"FINAL ASSESSMENT:")
